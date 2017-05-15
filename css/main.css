@@ -1,1 +1,133 @@
-/* Agrega aquí tus estilos*/
+body {
+	background-color: #FFF;
+	color: black;
+	font-family: 'Dosis', sans-serif;
+	text-align:center;
+}
+
+h1,h2,h3 {
+	color: rgb(109,44,72);
+}
+
+ul {
+	list-style:none;
+	text-align:left;
+}
+
+p{
+	padding:.3em;
+	text-align:justify;
+}
+
+a{
+	color: #FFF;
+	background-color:#CCC;
+	text-decoration:blink;
+	border-radius: 5px;
+	padding:.2em .2em;
+}
+
+.summary{
+	border-bottom:2px solid #603;
+}
+
+.summary p{
+	text-align: center;
+}
+
+.preamble {
+	display: inline-block;
+	width: 75%;
+	padding:3em;
+	border-bottom:2px solid #603;
+}
+
+.explanation{
+	display:inline-block;
+	width: 75%;
+	padding:3em;
+	border-bottom:2px solid #603;
+}
+
+.participation{
+	display:inline-block;
+	width: 75%;
+	padding:3em;
+	border-bottom:2px solid #603;
+}
+
+.benefits{
+	display:inline-block;
+	width: 75%;
+	padding:3em;
+	border-bottom:2px solid #603;
+}
+
+.requirements{
+	display:inline-block;
+	width: 75%;
+	padding:3em;
+	border-bottom:2px solid #603;
+}
+
+
+
+.sidebar li{
+	padding:.5em;
+	}
+
+.sidebar li a{
+	text-decoration:none;
+}
+
+
+.design-selection{
+	display:inline-block;
+	width:30%;
+	height: 30%;
+	margin: 2em ;
+}
+
+.designer-name{
+	background-color: #333;
+	text-decoration:overline;
+	
+}
+
+.design-archives{
+	display: inline-block;
+	width: 30%;
+	border-top-color: #CC0000;
+	padding-top: 1em;
+	margin-top:1em;
+}
+
+.zen-resources{
+	display:inline-block;
+	width:30%;
+	height: 30%;
+	margin:1em;
+	}
+
+#zen-supporting{
+	border-bottom:2px solid #603;
+	}
+
+footer {
+	text-align:center;
+	padding: 2em;
+}
+
+footer a{
+	background-color: #333;
+	padding:1em;
+    transition: backgroung-color, 2s;
+	text-decoration:none;
+}
+
+footer a:hover{
+	background-color: rgb(204,204,204); 
+	border-radius:30px;
+	}
+
+
